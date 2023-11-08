@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login Now</h1>
+      <!-- <input type="text" placeholder="Username" id="text" />
+      <p class="or">OR</p> -->
+      <input type="email" placeholder="Email" id="email" />
+      <input type="password" placeholder="Password" id="password" />
+      <p><a href="#" onclick="forgetPassword()">Forget Password ?</a></p>
+
+      <button onclick="login()">Login</button>
+
+      <p>Don't have an account ?<a href="sign-up.html"> Sign Up</a></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
